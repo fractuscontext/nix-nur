@@ -1,37 +1,71 @@
-# nur-packages-template
+# 🌸 fractuscontext / nur-packages
 
-**A template for [NUR](https://github.com/nix-community/NUR) repositories**
+**My personal [NUR](https://github.com/nix-community/NUR) repository.**
 
-## Setup
+[![Build and populate cache](https://github.com/fractuscontext/nix-nur/actions/workflows/build.yml/badge.svg)](https://github.com/fractuscontext/nix-nur/actions/workflows/build.yml)
 
-1. Click on [Use this template](https://github.com/nix-community/nur-packages-template/generate) to start a repo based on this template. (Do _not_ fork it.)
-2. Add your packages to the [pkgs](./pkgs) directory and to
-   [default.nix](./default.nix)
-   * Remember to mark the broken packages as `broken = true;` in the `meta`
-     attribute, or travis (and consequently caching) will fail!
-   * Library functions, modules and overlays go in the respective directories
-3. Choose your CI: Depending on your preference you can use github actions (recommended) or [Travis ci](https://travis-ci.com).
-   - Github actions: Change your NUR repo name and optionally add a cachix name in [.github/workflows/build.yml](./.github/workflows/build.yml) and change the cron timer
-     to a random value as described in the file
-   - Travis ci: Change your NUR repo name and optionally your cachix repo name in 
-   [.travis.yml](./.travis.yml). Than enable travis in your repo. You can add a cron job in the repository settings on travis to keep your cachix cache fresh
-5. Change your travis and cachix names on the README template section and delete
-   the rest
-6. [Add yourself to NUR](https://github.com/nix-community/NUR#how-to-add-your-own-repository)
+This repository hosts custom Nix packages and overlays, specifically focused on **macOS (Darwin) applications** that are either missing from or outdated in `nixpkgs`.
 
-## README template
+## 📦 What's Inside
 
-# nur-packages
+### `overlays/mac-apps`
+A custom overlay that provides auto-updated DMGs for macOS apps. These are fetched directly from upstream GitHub/GitLab releases via a custom `update-mac-apps` script.
 
-**My personal [NUR](https://github.com/nix-community/NUR) repository**
+| Package | Upstream | Architecture |
+| :--- | :--- | :--- |
+| **LibreWolf** | [librewolf-community](https://gitlab.com/librewolf-community/browser/bsys6) | Universal (x64/arm64) |
+| **Whisky** | [Whisky-App](https://github.com/Whisky-App/Whisky) | Universal |
+| **Standard Notes** | [standardnotes](https://github.com/standardnotes/app) | Universal |
+| **Lunar** | [Lunar.fyi](https://github.com/alin23/Lunar) | Universal |
+| **Sol** | [Sol](https://github.com/ospfranco/sol) | Universal |
+| **Telegram Desktop** | [telegramdesktop](https://github.com/telegramdesktop/tdesktop) | Universal |
+| **Ungoogled Chromium** | [ungoogled-software](https://github.com/ungoogled-software/ungoogled-chromium-macos) | Universal |
+| **Bambu Studio** | [bambulab](https://github.com/bambulab/BambuStudio) | Universal |
 
-<!-- Remove this if you don't use github actions -->
-![Build and populate cache](https://github.com/<YOUR-GITHUB-USER>/nur-packages/workflows/Build%20and%20populate%20cache/badge.svg)
+## 🛠 Usage
 
-<!--
-Uncomment this if you use travis:
+### 1. Add to your `flake.nix`
 
-[![Build Status](https://travis-ci.com/<YOUR_TRAVIS_USERNAME>/nur-packages.svg?branch=master)](https://travis-ci.com/<YOUR_TRAVIS_USERNAME>/nur-packages)
--->
-[![Cachix Cache](https://img.shields.io/badge/cachix-<YOUR_CACHIX_CACHE_NAME>-blue.svg)](https://<YOUR_CACHIX_CACHE_NAME>.cachix.org)
+```nix
+{
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    
+    # Add this repo
+    my-nur.url = "github:fractuscontext/nur-packages";
+  };
 
+  outputs = { self, nixpkgs, my-nur, ... }: {
+    darwinConfigurations."macbook" = darwin.lib.darwinSystem {
+      modules = [
+        ({ pkgs, ... }: {
+          nixpkgs.overlays = [ my-nur.overlay ];
+        })
+      ];
+    };
+  };
+}
+```
+
+### 2. Install Packages
+
+Once the overlay is added, these apps appear in your `pkgs` namespace just like standard packages:
+
+```nix
+# In your home-manager or darwin configuration
+home.packages = with pkgs; [
+  librewolf
+  whisky
+  standardnotes
+];
+```
+
+## 🤖 Automation
+
+This repo uses **GitHub Actions** to keep everything fresh:
+
+1.  **`build.yml`**: Runs daily CI checks to ensure packages evaluate correctly and notifies the NUR registry of updates.
+2.  **`overlay-update.yml`**: Runs every Tuesday to check upstream GitHub/GitLab releases. If a new version is found (e.g., a new LibreWolf DMG), it auto-generates a PR with the updated `src.json` and SHA256 hashes.
+
+## ⚖️ License
+MIT (unless otherwise noted by upstream packages).

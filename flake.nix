@@ -1,5 +1,5 @@
 {
-  description = "My personal NUR repository";
+  description = "@fractuscontext' NUR Repo";
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   outputs = { self, nixpkgs }:
     let

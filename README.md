@@ -39,7 +39,7 @@ A custom overlay that provides auto-updated DMGs for macOS apps. These are fetch
     darwinConfigurations."macbook" = darwin.lib.darwinSystem {
       modules = [
         ({ pkgs, ... }: {
-          nixpkgs.overlays = [ my-nur.overlay ];
+          nixpkgs.overlays = [ my-nur..overlays.mac-apps ];
         })
       ];
     };

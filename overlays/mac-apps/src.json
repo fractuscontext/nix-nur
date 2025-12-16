@@ -40,9 +40,9 @@
     		"sha256": "d1107e0bbe1005fbad921eee5f5be022d660e714d36c74ae153253c3c3d31b2c"
     	},
     	"telegram-desktop": {
-    		"version": "v6.3.6",
-    		"url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.3.6/tsetup.6.3.6.dmg",
-    		"sha256": "5aeb92966acbfdf90b7c9bf8a4e883ece2dbf462e547dfa929477cfa28736909"
+    		"version": "v6.3.7",
+    		"url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.3.7/tsetup.6.3.7.dmg",
+    		"sha256": "68864977d9c407bcfa69d18cc542378c41a801c04830aced2b80b17c00013b12"
     	},
 			"ungoogled-chromium-x64": {
     		"version": "143.0.7499.40-1.1",

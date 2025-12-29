@@ -24,7 +24,6 @@ final: prev: {
       passthru.updateScript = nix-update-script { };
     });
 
-  # 
   librewolf = final.extraApplications rec {
     pname = "librewolf";
     sourceRoot = "LibreWolf.app";
@@ -82,5 +81,14 @@ final: prev: {
     pname = "bambu-studio";
     sourceRoot = "BambuStudio.app";
     nativeBuildInputs = [ prev.pkgs.undmg ];
+  };
+
+  kap-bin = final.extraApplications rec {
+    pname = "kap-bin";
+    sourceRoot = "Kap.app";
+    upstream-name = if prev.pkgs.system == "x86_64-darwin" then
+      "kap-x64"
+    else
+      "kap-arm64";
   };
 }

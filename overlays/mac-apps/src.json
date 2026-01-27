@@ -1,13 +1,13 @@
 {
     	"standardnotes-x64": {
-    		"version": "desktop@3.201.7",
-    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.7/standard-notes-3.201.7-mac-x64.dmg",
-    		"sha256": "590fef66921b0d6c971ae5b579b37a989b15368a5728d06d148ba21889d3510b"
+    		"version": "desktop@3.201.9",
+    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.9/standard-notes-3.201.9-mac-x64.dmg",
+    		"sha256": "6cbd0b86a3786232cc7250c1aea21366d1a1976ebea5b013e64342c16031d919"
     	},
     	"standardnotes-arm64": {
-    		"version": "desktop@3.201.7",
-    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.7/standard-notes-3.201.7-mac-arm64.dmg",
-    		"sha256": "471691a17d79a701e81003e6dac8a11466dbc60e24e03482c2994a999796a0d8"
+    		"version": "desktop@3.201.9",
+    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.9/standard-notes-3.201.9-mac-arm64.dmg",
+    		"sha256": "a21dba5b3e9b99b5939b6553dd5cff726b444223fff77967d4ba95fe3cf58717"
     	},
     	"whisky": {
     		"version": "v2.3.5",
@@ -25,9 +25,9 @@
     		"sha256": "7f55e1c41634e02190d79653b9b07345645ca651d64855f96c7420668be3a23b"
     	},
     	"floorp": {
-    		"version": "v12.10.1",
-    		"url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.10.1/floorp-macOS-universal.dmg",
-    		"sha256": "7da3b9ddea79feda93604f493ce0b0fdf3c42a9ccac5ff92f610f5c873c856ca"
+    		"version": "v12.10.2",
+    		"url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.10.2/floorp-macOS-universal.dmg",
+    		"sha256": "d225e9f6f1d81c6049905699ff08a64fb67496a16c31a2634af4c4f2e96f7a6d"
     	},
     	"lunarfyi": {
     		"version": "v6.9.5",
@@ -45,14 +45,14 @@
     		"sha256": "a374d407380938a32d1072976ca2008c88d628de1b6d1e4c177a2e4a44ab8754"
     	},
 			"ungoogled-chromium-x64": {
-    		"version": "143.0.7499.169-1.1",
-    		"url": "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases/download/143.0.7499.169-1.1/ungoogled-chromium_143.0.7499.169-1.1_x86_64-macos.dmg",
-    		"sha256": "9233ed5042bca37a235701a9fdd6d62b79c0f230704aa7118df6c6512de17b2b"
+    		"version": "144.0.7559.96-1.1",
+    		"url": "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases/download/144.0.7559.96-1.1/ungoogled-chromium_144.0.7559.96-1.1_x86_64-macos.dmg",
+    		"sha256": "c74379c1f66e249267b3c77a443966945ffdd4a6e646bfe5e60752e9d1851663"
     	},
 			"ungoogled-chromium-arm64": {
-    		"version": "143.0.7499.169-1.1",
-    		"url": "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases/download/143.0.7499.169-1.1/ungoogled-chromium_143.0.7499.169-1.1_arm64-macos.dmg",
-    		"sha256": "603eaa5b8677a35cd118ec26f3c92ccc5fdc2a86c2318e2b50e28cdbcb888bf1"
+    		"version": "144.0.7559.96-1.1",
+    		"url": "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases/download/144.0.7559.96-1.1/ungoogled-chromium_144.0.7559.96-1.1_arm64-macos.dmg",
+    		"sha256": "4cc8236ffeacf8dcf3ba43422cf8d3c3ee28bf0e6eab0498b25e62906952be9a"
     	},
 			"bambu-studio": {
     		"version": "v02.04.00.70",

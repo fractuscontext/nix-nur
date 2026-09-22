@@ -1,13 +1,13 @@
 {
     	"standardnotes-x64": {
-    		"version": "desktop@3.202.3",
-    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.3/standard-notes-3.202.3-mac-x64.dmg",
-    		"sha256": "1e8ca1e51e52ce7297edcc1b62e17dee45d5051d999597e4c8aeff529dd48760"
+    		"version": "desktop@3.202.7",
+    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.7/standard-notes-3.202.7-mac-x64.dmg",
+    		"sha256": "adee54d9e85d9b5a33e0533387ca7be755ca2d94133dd7e2e41402469082cf1d"
     	},
     	"standardnotes-arm64": {
-    		"version": "desktop@3.202.3",
-    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.3/standard-notes-3.202.3-mac-arm64.dmg",
-    		"sha256": "6409fa9956bd229b9756723647983701ddaf19c72462b8f1d96749f46ec626b3"
+    		"version": "desktop@3.202.7",
+    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.7/standard-notes-3.202.7-mac-arm64.dmg",
+    		"sha256": "0d9a699cc4724f9ef262cee09c71a7a13dc08ee72263b92abfc80cbd1936b841"
     	},
     	"whisky": {
     		"version": "v2.3.5",
@@ -25,9 +25,9 @@
     		"sha256": "7f55e1c41634e02190d79653b9b07345645ca651d64855f96c7420668be3a23b"
     	},
     	"floorp": {
-    		"version": "v12.17.2",
-    		"url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.17.2/floorp-macOS-universal.dmg",
-    		"sha256": "7086e8817196e2dde6fb89555b18453e5f201eeeaff4ab6807c15ba49a8dac3e"
+    		"version": "v12.18.0",
+    		"url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.18.0/floorp-macOS-universal.dmg",
+    		"sha256": "0332d3abb3f12c2bca8820caf86c31b6ec2e3c791f70971adaeccb471d399527"
     	},
     	"lunarfyi": {
     		"version": "v6.11.0",
@@ -35,14 +35,14 @@
     		"sha256": "a45ad3e4b06a4729eac8c75714fe43067ebd4c750d9d729b27897de831f1237d"
     	},
     	"sol": {
-    		"version": "2.1.357",
-    		"url": "https://github.com/ospfranco/sol/releases/download/2.1.357/2.1.357.zip",
-    		"sha256": "6c25c357837126102964d4dd93f64cf13b9885a90e8ee1676f806f16c1c12638"
+    		"version": "2.1.362",
+    		"url": "https://github.com/ospfranco/sol/releases/download/2.1.362/2.1.362.zip",
+    		"sha256": "8b0d4022c2bd3e2e677fc6b2e4acac7f247a481890560e01ea2d9151c1703007"
     	},
     	"telegram-desktop": {
-    		"version": "v7.2.7",
-    		"url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.2.7/td-setup-mac-7.2.7.dmg",
-    		"sha256": "7957739d238f466c131c0eca7e05bf3ba188c440380921e250caf5a437f21e8e"
+    		"version": "v7.2.9",
+    		"url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.2.9/td-setup-mac-7.2.9.dmg",
+    		"sha256": "526aad8d40617fafaa27acb52dd0f5df451cd4683fb7fd63666aece164282bf4"
     	},
 			"ungoogled-chromium-x64": {
     		"version": "152.0.7977.82-1.1",
@@ -55,9 +55,9 @@
     		"sha256": "ba673876533e79b3c09edaf3ebd0dadcc29e9d0112b9b843d8c032cfb7bfb457"
     	},
 			"bambu-studio": {
-    		"version": "v02.08.02.61",
-    		"url": "https://github.com/bambulab/BambuStudio/releases/download/v02.08.02.61/Bambu_Studio_mac-v02.08.02.61-20260820225108.dmg",
-    		"sha256": "cf648a95858fb630e1353c4987038df60d6caab693f18411fb95fb809f2d6926"
+    		"version": "v02.08.03.66",
+    		"url": "https://github.com/bambulab/BambuStudio/releases/download/v02.08.03.66/Bambu_Studio_mac-v02.08.03.66-20260908195535.dmg",
+    		"sha256": "d948aa9001685c2ecb3ff1cabb146e6cf1b5ec5114fbd4b2b4419293367ee468"
     	},
 			"kap-x64": {
     		"version": "v3.6.0",

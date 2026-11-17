@@ -1,13 +1,13 @@
 {
     	"standardnotes-x64": {
-    		"version": "desktop@3.202.11",
-    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.11/standard-notes-3.202.11-mac-x64.dmg",
-    		"sha256": "014f91087ed09e0673a11885c9a92b0abaf22980e2ff496932ced2de2191b2a3"
+    		"version": "desktop@3.203.2",
+    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.203.2/standard-notes-3.203.2-mac-x64.dmg",
+    		"sha256": "c82a92126e0f5f58458cd36b12e65100245b3645be4590cbd8d02893e43a6eb9"
     	},
     	"standardnotes-arm64": {
-    		"version": "desktop@3.202.11",
-    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.11/standard-notes-3.202.11-mac-arm64.dmg",
-    		"sha256": "4de1a8010eb1500dd42bbf28242c04771775d6b9bb303da0439bea3254480e86"
+    		"version": "desktop@3.203.2",
+    		"url": "https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.203.2/standard-notes-3.203.2-mac-arm64.dmg",
+    		"sha256": "f8382c0d2f10722368a109b5c19244f860512e8a154b670a0b3933a567238ccd"
     	},
     	"whisky": {
     		"version": "v2.3.5",
@@ -25,9 +25,9 @@
     		"sha256": "7f55e1c41634e02190d79653b9b07345645ca651d64855f96c7420668be3a23b"
     	},
     	"floorp": {
-    		"version": "v12.20.2",
-    		"url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.20.2/floorp-macOS-universal.dmg",
-    		"sha256": "f45684a19cd787cc78e151fc6d60fbc9605b3526a7f272fa1d2c896905824674"
+    		"version": "v12.21.2",
+    		"url": "https://github.com/Floorp-Projects/Floorp/releases/download/v12.21.2/floorp-macOS-universal.dmg",
+    		"sha256": "3a6a7b4b38d300ed1f38a38a42127a4d26502e14e4308713af31ac4af4083c7f"
     	},
     	"lunarfyi": {
     		"version": "v6.11.3",
@@ -40,24 +40,24 @@
     		"sha256": "015f2bae94968ad7b5ce837ee4645505f72dabec83655918d58ee8722c051fff"
     	},
     	"telegram-desktop": {
-    		"version": "v7.3.3",
-    		"url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.3.3/td-setup-mac-7.3.3.dmg",
-    		"sha256": "2f61ac7b8ab5d1190a9ab0aa23198468bcbde9eb26c63af4708161ed6a5f7cd3"
+    		"version": "v7.4.4",
+    		"url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.4/td-setup-mac-7.4.4.dmg",
+    		"sha256": "5ce825dcdec8d123ad8d5fe4f973d2189883235b985fdbdc641ae04969d8b0ef"
     	},
 			"ungoogled-chromium-x64": {
-    		"version": "155.0.8059.84-1.1",
-    		"url": "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases/download/155.0.8059.84-1.1/ungoogled-chromium_155.0.8059.84-1.1_x86_64-macos.dmg",
-    		"sha256": "1123f91bb16e67558ab961974527d3c8b24d5d1f05e7a249430f2caae3530130"
+    		"version": "157.0.8103.78-1.1",
+    		"url": "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases/download/157.0.8103.78-1.1/ungoogled-chromium_157.0.8103.78-1.1_x86_64-macos.dmg",
+    		"sha256": "8a7306ac6218f8b0f3c38b570922115b9545749ae4c0b2c29bbd1ebb5c00459f"
     	},
 			"ungoogled-chromium-arm64": {
-    		"version": "155.0.8059.84-1.1",
-    		"url": "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases/download/155.0.8059.84-1.1/ungoogled-chromium_155.0.8059.84-1.1_arm64-macos.dmg",
-    		"sha256": "a91ffff0da8587ec253c01c246beb4ae59a8fd4e221b76374ec0a5ed5f987b6c"
+    		"version": "157.0.8103.78-1.1",
+    		"url": "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases/download/157.0.8103.78-1.1/ungoogled-chromium_157.0.8103.78-1.1_arm64-macos.dmg",
+    		"sha256": "bdfe0ee51e47b7ff49c94778c6d9adb08a626dfbd6089570bbbb455410f1a41a"
     	},
 			"bambu-studio": {
-    		"version": "v02.08.04.57",
-    		"url": "https://github.com/bambulab/BambuStudio/releases/download/v02.08.04.57/Bambu_Studio_mac_v02.08.04.57-20260922164607.dmg",
-    		"sha256": "6d0099f60bb4449ee9066160cb65a8a1f639650a3f48cddf13566fe0c520ac66"
+    		"version": "v02.09.01.70",
+    		"url": "https://github.com/bambulab/BambuStudio/releases/download/v02.09.01.70/Bambu_Studio_mac-v02.09.01.70-20261103183404.dmg",
+    		"sha256": "e4f42ac1542cb107cb21cbf98717de7b17e735bdb46fd2a18249e30929e3310d"
     	},
 			"kap-x64": {
     		"version": "v3.6.0",
